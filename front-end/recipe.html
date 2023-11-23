@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hungry_Leopard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css\index.css">
+
+</head>
+
+<body>
+<nav class="p-4 bg-dark text-white navbar navbar-expand-lg">
+    <div class="container">
+        <div class="d-flex">
+            <img src="image/logo.png" alt="logo" width="90" height="80">
+            
+            <a href="/" class="text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap"/>
+                </svg>
+            </a>           
+
+            <!-- Search button -->
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-4" action='/search' method='get'>
+                <label class="visually-hidden" for='search-input'>
+                    Search 
+                </label>
+                <div class="input-group mx-auto ">
+                    <input type="search" id='search-input' name="q" class="form-control form-control-lg " placeholder="Search your recipes" aria-label="Search" aria-describedby="search-button">
+                    <button type="submit" class="btn btn-outline-light" id="search-button">
+                        <i class='fas fa-search'></i>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
+        </div>
+          <!-- Login and sign-up -->
+          <div class="container_login">
+            <div class='navbar-nav '>
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+        </div>      
+    </div>
+</nav>
+
+<!-- hyper links-->
+<div class="container_menu">
+    <nav class="bg-dark p-3">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Floating images for popular dishes-->
+<div class="image-container">
+    <div class="floating-image">
+      <img src="C:\Users\user\OneDrive\Pictures\Camera Roll\Screenshot 2023-11-21 232749.png">
+    </div>
+    <div class="floating-image">
+      <img src="C:\Users\user\OneDrive\Pictures\Camera Roll\Screenshot 2023-11-21 234615.png">
+    </div>
+    <div class="floating-image">
+        <img src="C:\Users\user\OneDrive\Pictures\Camera Roll\ccake.png">
+      </div>
+ 
+
+<!--Footer of the website -->
+<footer class=' fixed-bottom text-center text-large-start bg-light text-muted'>
+    <!--section for media-->
+    <section class='d-flex justify-content-cente justify-content-lg-between p-4 border-bottom'>
+        <!--left content-->
+        <div class='me-4 '>
+            <span>Get connected with us</span>
+        </div>
+
+        <!-- Right Content-->
+        <div class=''>
+            <a href='#' class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href='#' class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+            </a>
+            
+            <a href='#' class="me-4 text-reset">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href='#' class="me-4 text-reset">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            
+            <a href='#' class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+            </a>
+            
+            <a href='#' class="me-4 text-reset">
+                <i class='fab fa-instagram'></i>
+            </a>
+        </div>
+    </section>
+
+    <!--links-->
+    <section>
+        
+    <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+            Hungry lyon
+            </h6>
+            <p>
+                Your inspiration about the recipes goes here
+                 <br> <br>ndsngkserjgnoisfd<br>
+            </p>
+          </div>
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Nairobi, Kenya</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              me@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 254 7........</p>
+            <p><i class="fas fa-phone me-3"></i> + 243 9............</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        
+    <section>
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
