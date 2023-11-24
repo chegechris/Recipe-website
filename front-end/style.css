@@ -161,8 +161,12 @@ section{
     color: var(--main-color);
 }
 
+.mocktails{
+    background-color: #333;
+}
+
 /* Mocktails Heading */
-.mocktails .heading {
+.heading {
     text-align: center;
     color: #d3d3d3;
     text-transform: uppercase;
@@ -170,7 +174,7 @@ section{
     font-size: 4rem;
 }
 
-.mocktails .heading span {
+.heading span {
     color: rgb(255, 0, 0);
     text-transform: uppercase;
 }
@@ -231,9 +235,20 @@ section{
     margin-top: 20px;
 }
 
+.box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem
+}
+.box-container.box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);
+}
 
-
-
+.box-container.box img{
+    height:10rem
+}
 
 
 
